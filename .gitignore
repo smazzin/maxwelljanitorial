@@ -1,0 +1,8 @@
+static/sass/*
+public/sass/.sass-cache/*
+public/sass/*
+
+config.codekit3%
+
+# Ignore .DS_store file
+.DS_Store

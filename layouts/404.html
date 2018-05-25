@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+
+<div class="hero">
+    <div class="row center-xs">
+        <div class="col-xs">
+            <h1 class="hero-headline">
+              {{- .Site.Params.info.title404 | default .Title -}}
+            </h1>
+        </div>
+    </div>
+</div>
+<div class="wrap container-fluid">
+    <div class="row center-xs">
+        <div class="col-sm-12">
+          <p class="error">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer" . }}

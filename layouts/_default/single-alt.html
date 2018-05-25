@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+
+<div class="hero">
+  <div class="row center-xs">
+    <div class="col-xs">
+            <h1 class="hero-headline">{{ .Params.PageTitle }}</h1>
+        </div>
+  </div>
+    <div class="wrap container-fluid">
+        <div class="row center-xs">
+            <div class="col-md-10 col-md-offset-2">
+                <div class="row">
+                    <div class="col-md-8 col-xs-12">
+                        <p class="hero-copy-sm">{{ with .Params.heroText }}{{ . | safeHTML }}{{ end }}</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <p><a class="btn btn-lg btn-primary" href="tel:541-733-5586">541-733-5586</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrap container-fluid">
+    <div class="row start-sm">
+        <div class="col-sm-12 center-xs">
+            <h2>{{ with .Params.h2Text }}{{ . | safeHTML }}{{ end }}</h2>
+        </div>
+        <div class="col-sm-6">
+            <div class="services-copy">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <img class="services-img" src="{{ .Params.image }}" alt="{{ .Title }}">
+        </div>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- noindex meta -->
+  {{ $default_noindex_kinds := slice "section" "taxonomy" "taxonomyTerm" }}
+  {{ $noindex_kinds := .Site.Params.noindex_kinds | default $default_noindex_kinds }}
+  {{ $is_noindex_true := and (isset .Params "noindex") .Params.noindex }}
+  {{ if or (in $noindex_kinds .Kind) ($is_noindex_true) }}
+  <meta name="robots" content="noindex">
+  {{ end }}
+	<title>{{ .Title }}</title>
+  <meta name="description" content="{{ .Description }}">
+	<meta property="og:description" content="{{ .Description }}">
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.min.css">
+  <!--
+	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
+-->
+  <link rel="canonical" href="{{ .URL | relURL }}"> {{ if (isset .Params "prev") }}
+  <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
+  <link rel="next" href="{{ .Params.next }}"> {{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": ["LocalBusiness","Service"],
+  "serviceType": "Professional janitorial and window cleaning.l",
+    "name": "Maxwell Janitorial",
+    "telephone": "541-733-5586",
+    "openingHours": "Mo,Tu,We,Th,Fr 08:00-17:00",
+    "image": "http://www.maxwelljanitorial.com/images/maxwell-janitorial-logo-large.png",
+    "priceRange" : "$$$",
+    //"areaServed":"Roseburg, Oregon",
+    "areaServed": ["Roseburg"],
+    "address" : {
+      "@type" : "PostalAddress",
+      "streetAddress" : "",
+      "addressLocality" : "Roseburg",
+      "addressRegion" : "OR",
+      "postalCode" : ""
+    },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Cleaning services",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Window washing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Carpet cleaning"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Janitorial"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+</script>
+</head>
+<body class="layout">
+<div class="page js-page">
+  <div class="top-nav">
+      <div class="container-fluid">
+          <div class="row center-xs" id="Sebastian">
+          <span class="link-copy"></span>
+          <a href="{{ .Site.BaseURL }}">
+              <img class="logo" src="{{ .Site.BaseURL }}/images/logo-sm.png" alt="Maxwell Janitorial, Roseburg, OR">
+          </a>
+            <nav class="menu menu--sebastian nav-collapse">
+              <ul id="nav" class="menu__list">
+                <li class="menu__item">
+                  <a href="{{ .Site.BaseURL }}" class="menu__link">Home</a>
+                </li>
+                {{ range .Site.Menus.main }}
+                <li class="menu__item"><a class="menu__link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </nav>
+          </div>
+      </div>
+  </div>

@@ -1,0 +1,77 @@
+	<div class="footer">
+    <footer class="page-footer wrap container-fluid">
+        <div class="row around-lg">
+            <div class="col-sm" style="padding:1em;margin:0.5em;">
+                <h4>Services</h4>
+                <ul class="list-unstyled services">
+                {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                {{ end }}
+                </ul>
+            </div>
+
+            <div class="col-sm" style="padding:1em;margin:0.5em;">
+                <h4>Phone</h4>
+                <ul class="list-unstyled">
+                    <li><a href="tel:541-733-5586">541-733-5586</a></li>
+                </ul>
+            </div>
+            <div class="col-sm" style="padding:1em;margin:0.5em;">
+                <h4>Hours</h4>
+                <ul class="list-unstyled">
+                    <li>Mon-Fri 8am - 5pm</li>
+                </ul>
+            </div>
+            <div class="col-sm-12">
+                <div class="copyright">
+                  {{- with .Site.Copyright -}}
+                    {{ . }}
+                  {{- else -}}
+                    {{- with .Site.Params.copyright -}}
+
+                      {{ with .startyear }}
+                        {{ if lt ( int . ) now.Year }}
+                          {{ $.Scratch.Set "copyrightStartYear" . }}
+                        {{ end }}
+                      {{ end }}
+
+                      {{ .prefix }} &copy; {{ with ( $.Scratch.Get "copyrightStartYear" ) }}{{ . }}-{{ end }}{{ now.Year }} {{ or .holder $.Site.Title }} {{ .suffix }}
+                    {{- end -}}
+                  {{ end }}
+                </div>
+            </div>
+        </div>
+    </footer>
+  </div>
+</div>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/site.min.css">
+    <script src="{{ .Site.BaseURL }}/js/jquery-3.1.0.slim.min.js"></script>
+    <script src="{{ .Site.BaseURL }}/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="{{ .Site.BaseURL }}/js/responsive-nav.js"></script>
+    <script>
+        $('li.menu__item').each(function(){
+            if(window.location.href.indexOf($(this).find('a:first').attr('href'))>-1)
+            {
+            $(this).addClass('menu__item--current').siblings().removeClass('menu__item--current');
+            }
+        });
+    </script>
+    <script>
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,
+        transition: 284,
+        label: "Menu",
+        insert: "after",
+        customToggle: "",
+        closeOnNavClick: false,
+        openPos: "relative",
+        navClass: "nav-collapse",
+        navActiveClass: "js-nav-active",
+        jsClass: "js",
+        init: function(){},
+        open: function(){},
+        close: function(){}
+      });
+    </script>
+</body>
+</html>
