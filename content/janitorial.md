@@ -3,7 +3,7 @@ title: "Maxwell Janitorial Cleaning Services | Roseburg, OR"
 description: " Maxwell Janitorial Offers top-quality janitorial cleaning services for offices and small businesses in Roseburg, OR and surrounding areas."
 pagetitle: "Professional Janitorial Cleaning Services"
 layout: single
-heroText: "Serving Douglas County, OR and surrounding areas. <br> Call us today for a Free quote!"
+heroText: "Serving Douglas County, OR and surrounding areas. <br> Call us today for a FREE quote!"
 h2Text: "Janitorial for Offices & Small Businesses"
 image: "/images/office-clean-md.jpg"
 ---
