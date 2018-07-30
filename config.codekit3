@@ -7,7 +7,7 @@
 		"uuidString": "A69B38C5-52A7-41C6-BEFE-11967687BA56"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -161,6 +161,13 @@
 		"oA": 1,
 		"oAP": "\/layouts\/_default\/single.html",
 		"oF": 1
+		},
+	"\/layouts\/googlec99b23d54b239fed.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/layouts\/googlec99b23d54b239fed.html",
+		"oF": 0
 		},
 	"\/layouts\/index.html": {
 		"cB": 0,
@@ -324,6 +331,7 @@
 	"\/static\/images\/office-clean-lg.jpg": {
 		"ft": 16384,
 		"iS": 41346,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/static\/images\/office-clean-lg.jpg",
 		"oF": 0,
@@ -334,6 +342,7 @@
 	"\/static\/images\/office-clean-md.jpg": {
 		"ft": 16384,
 		"iS": 49264,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/static\/images\/office-clean-md.jpg",
 		"oF": 0,
@@ -344,6 +353,7 @@
 	"\/static\/images\/office-clean.jpg": {
 		"ft": 16384,
 		"iS": 16437,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/static\/images\/office-clean.jpg",
 		"oF": 0,
@@ -354,6 +364,7 @@
 	"\/static\/images\/office-janitorial-cleaning.jpg": {
 		"ft": 16384,
 		"iS": 15505,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/static\/images\/office-janitorial-cleaning.jpg",
 		"oF": 0,
@@ -364,6 +375,7 @@
 	"\/static\/images\/window-cleaning-lg.jpg": {
 		"ft": 16384,
 		"iS": 59134,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/static\/images\/window-cleaning-lg.jpg",
 		"oF": 0,
@@ -374,6 +386,7 @@
 	"\/static\/images\/window-cleaning-md.jpg": {
 		"ft": 16384,
 		"iS": 45487,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/static\/images\/window-cleaning-md.jpg",
 		"oF": 0,
@@ -384,6 +397,7 @@
 	"\/static\/images\/window-cleaning.jpg": {
 		"ft": 16384,
 		"iS": 15316,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/static\/images\/window-cleaning.jpg",
 		"oF": 0,
@@ -581,7 +595,8 @@
 	"creationDate": 538969763,
 	"displayValue": "maxwelljanitorial",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-confession"
+	"iconImageName": "meme-confession",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2384,6 +2399,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

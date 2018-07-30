@@ -1,9 +1,9 @@
 ---
-title: "Maxwell Janitorial Window Cleaning Services | Roseburg, OR"
-description: "Maxwell Janitorial Offers top-quality window cleaning services in Roseburg, OR, and surrounding areas."
+title: "Window Cleaning Services in Roseburg, OR | Maxwell Janitorial"
+description: "We offer op-quality window cleaning services in Roseburg, OR, and surrounding areas. Give us a call today to get those windos sparkling clean!"
 pagetitle: "Professional Window Cleaning in Roseburg, OR"
 layout: single-alt
-heroText: "Serving Douglas County, OR and surrounding areas. <br> Call us today for a free quote!"
+heroText: "Serving Roseburg, OR and surrounding areas. <br> Call us today for a FREE quote!"
 h2Text: "Window Washing for Residential Homes, Offices &amp; Small Businesses"
 image: "/images/window-cleaning-md.jpg"
 ---
