@@ -1,6 +1,6 @@
 ---
-title: Maxwell Janitorial Services | Serving Roseburg, OR
-description: Professional Window cleaning and janitorial services. Servicing Roseburg, OR and surrounding areas in Oregon. Give us a call today! 541-733-5586.
+title: Maxwell Janitorial Cleaning Services Roseburg, OR
+description: Professional Window cleaning and janitorial services. Serving Roseburg, OR and surrounding areas in Oregon.
 ---
 
 <div class="hero">
