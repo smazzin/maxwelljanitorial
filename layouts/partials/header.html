@@ -22,59 +22,6 @@
   <link rel="canonical" href="{{ .URL | relURL }}"> {{ if (isset .Params "prev") }}
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
   <link rel="next" href="{{ .Params.next }}"> {{ end }}
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": ["LocalBusiness","Service"],
-  "serviceType": "Professional janitorial and window cleaning.l",
-    "name": "Maxwell Janitorial",
-    "telephone": "541-733-5586",
-    "openingHours": "Mo,Tu,We,Th,Fr 08:00-17:00",
-    "image": "https://www.maxwelljanitorial.com/images/maxwell-janitorial-logo-large.png",
-    "priceRange" : "$$$",
-    "areaServed": ["Roseburg"],
-    "address" : {
-      "@type" : "PostalAddress",
-      "streetAddress" : "",
-      "addressLocality" : "Roseburg",
-      "addressRegion" : "OR",
-      "postalCode" : ""
-    },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Cleaning services",
-    "itemListElement": [
-      {
-        "@type": "OfferCatalog",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Window washing"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Carpet cleaning"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Janitorial"
-            }
-          }
-        ]
-      }
-    ]
-  }
-}
-</script>
 </head>
 <body class="layout">
 <div class="page js-page">

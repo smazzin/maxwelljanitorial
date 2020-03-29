@@ -1,5 +1,5 @@
 ---
-title: "Window Cleaning Roseburg, OR | Maxwell Janitorial 541-733-5586"
+title: "Window Cleaning Roseburg, OR | Maxwell Janitorial"
 description: "We offer top-quality window cleaning services in Roseburg, OR, and surrounding areas. Give us a call today to get those windos sparkling clean!"
 pagetitle: "Professional Window Cleaning in Roseburg, OR"
 layout: single-alt

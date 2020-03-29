@@ -20,7 +20,7 @@ description: Professional Window cleaning and janitorial services. Serving Roseb
                     Give us a call today for a free quote! </p>
                 </div>
                 <div class="col-md-3 col-xs-12">
-                    <p><a class="btn btn-lg btn-primary" href="tel:541-733-5586">541-733-5586</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#"></a></p>
                 </div>
             </div>
         </div>
