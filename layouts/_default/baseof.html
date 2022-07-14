@@ -17,7 +17,7 @@
 		{{ with .Site.Params.author }}
 		<meta name="author" content="{{ . }}">{{ end }}
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.min.css">
-		<link rel="canonical" href="{{ .URL | relURL }}"> {{ if (isset .Params "prev") }}
+		<link rel="canonical" href="{{ .Permalink | relURL }}"> {{ if (isset .Params "prev") }}
 		<link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
 		<link rel="next" href="{{ .Params.next }}"> {{ end }}
 	</head>
