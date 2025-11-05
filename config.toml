@@ -20,7 +20,7 @@ description = "Maxwell Janitorial"
 title404 = "Page Not Found"
 
 [params]
-description = "Maxwell Janitorial Offers top-quality janitorial cleaning services for offices and small businesses in Roseburg, OR and surrounding areas."
+description = "Maxwell Janitorial Offers top-quality janitorial cleaning services for offices and small businesses in Klamath Falls, OR and surrounding areas."
 pagetitle = "Maxwell Janitorial"
 noindex_kinds = [
   "taxonomy",

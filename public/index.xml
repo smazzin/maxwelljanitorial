@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maxwell Janitorial Cleaning Services Klamath Falls, OR on Maxwell Janitorial</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Maxwell Janitorial Cleaning Services Klamath Falls, OR on Maxwell Janitorial</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maxwell Janitorial Cleaning Services | Klamath Falls, OR</title>
+      <link>http://localhost:1313/janitorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/janitorial/</guid>
+      <description>At Maxwell Janitorial, we offer janitorial services for offices and small businesses. We want the opportunity to earn your trust and deliver you the best cleaning service in the industry.&#xA;You can rely on our expert team to customize a plan to meet all of your office cleaning needs.</description>
+    </item>
+    <item>
+      <title>Window Cleaning Klamath Falls, OR | Maxwell Janitorial</title>
+      <link>http://localhost:1313/window-cleaning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/window-cleaning/</guid>
+      <description>Maxwell Janitorial provides top-quality window cleaning. We do both residential and commercial window cleaning.&#xA;Window Washing Services Include:&#xA;Superior Customer care Interior and exterior window washing Window screen cleaning included </description>
+    </item>
+  </channel>
+</rss>
